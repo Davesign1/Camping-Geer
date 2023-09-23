@@ -20,10 +20,11 @@ header {
   top: 0;
   left: 0;
   z-index: 5;
+  height: 30px;
   width: 100%;
   display: flex;
   justify-content: center;
-  background: grey;
+  background: rgb(48, 48, 48);
 }
 
 .text h1{
@@ -235,6 +236,12 @@ section .cards .card {
   margin-bottom: 20px;
   border-radius: 100%;
   object-fit: cover;
+}
+
+.navbar{
+  /* margin-left: -90px; */
+  gap: 30px;
+  padding: 4px 10px;
 }
 
 .portfolio .card img {
